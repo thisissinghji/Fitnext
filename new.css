@@ -1,0 +1,108 @@
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: azure;
+}
+.left{
+   
+    display: inline-block;
+    position: absolute;
+    margin: auto 10px;
+    left: 30px;
+}
+.left div{
+    padding: 2px;
+    text-align: center;
+    font-size:25px ;
+    line-height: 10px;
+}
+
+
+
+.left img{
+    width: 60px;
+    filter: invert(100%);
+    margin: auto;
+    padding: 10px;
+
+}
+.mid{
+  
+    
+    display: block;
+    width: 60%;
+    margin: 22px auto;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 25px;
+}
+.navbar li a:hover{
+    color: antiquewhite;
+}
+.navbar li a:active{
+    color: red;
+}
+
+
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    padding:20px ;
+
+}
+.right button{
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    color:white;
+    margin: 3px;
+    cursor: pointer;
+
+}
+.right button:hover{
+    color:antiquewhite;
+}
+.content{
+    
+    margin: 100px;
+    padding:10px;
+    font-size: 100px;
+    line-height: 1px;
+}
+
+.bn button{
+    background-color:red;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    
+        
+}
+.bn button:hover{
+    background-color: blue;
+}
+
+.bn{
+    
+    display: inline-block;
+    position: relative;
+    left: 110px;
+
+}
